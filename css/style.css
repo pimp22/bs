@@ -95,7 +95,7 @@ a:hover, a:focus {
 }
 
 .main-color {
-    color: #6195FF;
+    color: #d7af00;
 }
 
 .white-text {
@@ -121,6 +121,7 @@ ul, ol {
 /* -- section  -- */
 
 .section {
+
     position: relative;
 }
 
@@ -190,7 +191,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color:#7a0000;
     margin-top: 20px;
 }
 
@@ -268,7 +269,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
-    max-height: 50px;
+    max-height: 100px;
     display: block;
 }
 
@@ -346,12 +347,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: #d7af00;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #d7af00;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -380,7 +381,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: #d7af00;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -596,6 +597,14 @@ header {
     text-align: center;
 }
 
+.headtxtdiv{
+    background-color: rgba(194, 166, 11,0.5);
+    background-color: rgba(00, 00, 0,0.6);
+    border:1px solid #d7af00;
+    border-radius: 5px;
+    
+  }
+
 .home-content h1 {
   text-transform: uppercase;
 }
@@ -637,7 +646,7 @@ header {
 
 .about i {
     font-size: 36px;
-    color: #6195FF;
+    color: #7a0000;
     margin-bottom: 20px;
 }
 
@@ -799,7 +808,7 @@ header {
     left: 20px;
     text-align: center;
     font-size: 32px;
-    color: #6195FF;
+    color: #7a0000;
     border-radius: 50%;
 }
 
@@ -840,8 +849,8 @@ header {
     float: left;
     padding: 5px;
     border-radius: 50%;
-    color: #6195FF;
-    border: 1px solid #6195FF;
+    color: #7a0000;
+    border: 1px solid #d7af00;
     margin-right: 5px;
 }
 
@@ -855,7 +864,7 @@ header {
 }
 
 .number i {
-    color: #6195FF;
+    color: #7a0000;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -910,7 +919,7 @@ header {
 }
 
 .pricing:hover .price-title {
-    color: #6195FF;
+    color: #7a0000;
 }
 
 .pricing .price {
@@ -1461,7 +1470,7 @@ header {
 }
 
 .footer-logo>a>img {
-    max-height: 80px;
+    max-height: 120px;
 }
 
 .footer-follow {
@@ -1482,7 +1491,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #d7af00;
   color:#FFF;
 }
 
@@ -1651,8 +1660,9 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #6195FF;
-  	border-radius:3px;
+  	background: black;
+      border-radius:3px;
+      border-color: #10161A;
   	color: #FFF;
   	z-index: 9999;
     -webkit-transition: 0.2s opacity;
@@ -1684,7 +1694,20 @@ header {
     z-index: 99999;
 }
 
+.pre-img {
+    display: block;
+    margin-bottom: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/wolf4.png);
+    position: center;
+    width: 350px;
+    height: 450px;
+}
+
 .preloader {
+   
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1694,7 +1717,8 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    
+    background-color: #7a0000;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
