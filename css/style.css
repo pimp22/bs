@@ -1462,7 +1462,7 @@ header {
 }
 
 .footer-logo>a>img {
-    max-height: 80px;
+    max-height: 120px;
 }
 
 .footer-follow {
@@ -1652,13 +1652,13 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #d7af00;
+  	background: #7a0000;
       border-radius:3px;
       border-color: #10161A;
   	color: #FFF;
   	z-index: 9999;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
+    -webkit-transition: 0.7s opacity;
+    transition: 0.7s opacity;
   	cursor: pointer;
 }
 
