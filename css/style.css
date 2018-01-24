@@ -121,7 +121,7 @@ ul, ol {
 /* -- section  -- */
 
 .section {
-    background-color: #d7af00;
+
     position: relative;
 }
 
@@ -191,7 +191,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color:#7a0000;
     margin-top: 20px;
 }
 
@@ -911,7 +911,7 @@ header {
 }
 
 .pricing:hover .price-title {
-    color: #6195FF;
+    color: #7a0000;
 }
 
 .pricing .price {
@@ -1652,8 +1652,9 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #6195FF;
-  	border-radius:3px;
+  	background: #d7af00;
+      border-radius:3px;
+      border-color: #10161A;
   	color: #FFF;
   	z-index: 9999;
     -webkit-transition: 0.2s opacity;
@@ -1685,7 +1686,20 @@ header {
     z-index: 99999;
 }
 
+.pre-img {
+    display: block;
+    margin-bottom: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/wolf4.png);
+    position: center;
+    width: 350px;
+    height: 450px;
+}
+
 .preloader {
+   
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1695,7 +1709,8 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    
+    background-color: #7a0000;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
