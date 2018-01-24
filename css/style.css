@@ -95,7 +95,7 @@ a:hover, a:focus {
 }
 
 .main-color {
-    color: #6195FF;
+    color: #d7af00;
 }
 
 .white-text {
@@ -121,6 +121,7 @@ ul, ol {
 /* -- section  -- */
 
 .section {
+    background-color: #d7af00;
     position: relative;
 }
 
@@ -268,7 +269,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
-    max-height: 50px;
+    max-height: 100px;
     display: block;
 }
 
@@ -346,12 +347,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: #d7af00;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #d7af00;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -380,7 +381,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: #d7af00;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -1482,7 +1483,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #d7af00;
   color:#FFF;
 }
 
