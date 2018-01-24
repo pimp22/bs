@@ -597,6 +597,14 @@ header {
     text-align: center;
 }
 
+.headtxtdiv{
+    background-color: rgba(194, 166, 11,0.5);
+    background-color: rgba(00, 00, 0,0.6);
+    border:1px solid #d7af00;
+    border-radius: 5px;
+    
+  }
+
 .home-content h1 {
   text-transform: uppercase;
 }
@@ -638,7 +646,7 @@ header {
 
 .about i {
     font-size: 36px;
-    color: #6195FF;
+    color: #7a0000;
     margin-bottom: 20px;
 }
 
@@ -800,7 +808,7 @@ header {
     left: 20px;
     text-align: center;
     font-size: 32px;
-    color: #6195FF;
+    color: #7a0000;
     border-radius: 50%;
 }
 
@@ -841,8 +849,8 @@ header {
     float: left;
     padding: 5px;
     border-radius: 50%;
-    color: #6195FF;
-    border: 1px solid #6195FF;
+    color: #7a0000;
+    border: 1px solid #d7af00;
     margin-right: 5px;
 }
 
@@ -856,7 +864,7 @@ header {
 }
 
 .number i {
-    color: #6195FF;
+    color: #7a0000;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -1652,13 +1660,13 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #7a0000;
+  	background: black;
       border-radius:3px;
       border-color: #10161A;
   	color: #FFF;
   	z-index: 9999;
-    -webkit-transition: 0.7s opacity;
-    transition: 0.7s opacity;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
   	cursor: pointer;
 }
 
