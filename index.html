@@ -117,6 +117,32 @@
 							<a href=""></a><button class="main-btn" class="g-signin2" onClick="onSignIn();">Login with Google</a></button>
 						
 							<script src="https://apis.google.com/js/platform.js" async defer></script>
+							
+							<!--custom google btn-->
+							<div id="googlelogincustom"></div>
+							<script>
+							  function onSuccess(googleUser) {
+								console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+							  }
+							  function onFailure(error) {
+								console.log(error);
+							  }
+							  function renderButton() {
+								gapi.signin2.render('my-signin2', {
+								  'scope': 'profile email',
+								  'width': 240,
+								  'height': 50,
+								  'border':5,
+								  'longtitle': true,
+								  'theme': 'dark',
+								  'onsuccess': onSuccess,
+								  'onfailure': onFailure
+								});
+							  }
+							</script>
+						  
+							<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+						  
 							<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <script>
       function onSignIn(googleUser) {
@@ -181,7 +207,7 @@
 				</div>
 				<!-- /number -->
 
-				<!-- number -->
+				<!-- number
 				<div class="col-sm-3 col-xs-6">
 					<div class="number">
 						<i class="fa fa-coffee"></i>
@@ -189,7 +215,7 @@
 						<span class="white-text">Cups of Coffee</span>
 					</div>
 				</div>
-				<!-- /number -->
+				/number -->
 
 				<!-- number -->
 				<div class="col-sm-3 col-xs-6">
@@ -295,7 +321,7 @@
 	<!-- /Service -->
 
 
-	<!-- Why Choose Us -->
+	<!-- Raffles -->
 	<div id="rank" class="section md-padding bg-grey">
 
 		<!-- Container -->
@@ -330,7 +356,7 @@
 			
 				</div>
 				<!-- /raffle content -->
-<!-- why choose us content -->
+<!-- Ranks -->
 <div class="col-md-6">
 		<!--<div class="section-header">-->
 			<h2 class="title">Ranking system</h2>
@@ -361,7 +387,7 @@
 				<p>Kraken - 3sec adv</p>
 			</div>
 	</div>
-	<!-- /why choose us content -->
+	<!-- /ranks -->
 				<!-- About slider 
 				<div class="col-md-6">
 					<div id="about-slider" class="owl-carousel owl-theme">
@@ -380,7 +406,7 @@
 		<!-- /Container -->
 
 	</div>
-	<!-- /Why Choose Us -->
+	<!-- /Raffles -->
 
 	<!-- faq -->
 	<div id="faq" class="section md-padding text-center">
@@ -449,7 +475,7 @@ can also use the !countdown cmd in #input-commands-here.
 			</p>
 			
 		</div>
-		<!-- /why choose us content -->
+		<!-- /slider-->
 					<!-- About slider 
 					<div class="col-md-6">
 						<div id="about-slider" class="owl-carousel owl-theme">
@@ -468,7 +494,7 @@ can also use the !countdown cmd in #input-commands-here.
 			<!-- /Container -->
 	
 		</div>
-		<!-- /Why Choose Us -->
+		<!-- /slider -->
 
 
 			<!-- faq -->
@@ -489,7 +515,7 @@ can also use the !countdown cmd in #input-commands-here.
 			<!--</div>-->
 			<p>
 				
-<b>Big Boys Pump Team are not responsible for any losses. We try our best to provide guidance as to how to perform well at the events. 
+<b>Big Boys Pump Team do not give financial nor trading advice and are not responsible for any losses. We try our best to provide guidance as to how to perform well at the events. 
 	While the majority of our members profit, some might lose. We provide our service to give everyone a more fair and legit game,
 	without the mischief we see from other groups. These unfair groups are what caused BPP Team to break off and start their own. Admins here will never buy in early. Fair game for all :)
 </b><br>
@@ -497,17 +523,7 @@ can also use the !countdown cmd in #input-commands-here.
 			</p>
 			
 		</div>
-		<!-- /why choose us content -->
-					<!-- About slider 
-					<div class="col-md-6">
-						<div id="about-slider" class="owl-carousel owl-theme">
-							<img class="img-responsive" src="./img/about1.jpg" alt="">
-							<img class="img-responsive" src="./img/about2.jpg" alt="">
-							<img class="img-responsive" src="./img/about1.jpg" alt="">
-							<img class="img-responsive" src="./img/about2.jpg" alt="">
-						</div>
-					</div>
-					 /About slider -->
+		
 	
 				</div>
 				<!-- /Row -->
