@@ -857,8 +857,19 @@ header {
 /*------------------------------------*\
 	Numbers
 \*------------------------------------*/
+.googletxt{
+    font-family: "JosefineSlab"; 
+    /*background-color: white;*/
+    font-weight: 100; 
+
+}
+.row{
+    position: center;
+   
+}
 
 .number {
+    position: center;
     text-align: center;
     margin: 15px 0px;
 }
